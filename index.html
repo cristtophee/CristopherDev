@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CristopherDev</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- AOS Animation CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="dev2.jpg" type="image/jpeg">
+ 
+    
+    
+    
+</head>
+
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">CristopherDev</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencias">Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-outline-light ms-3">Modo Oscuro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Hero -->
+    <section id="hero" class="d-flex align-items-center text-center text-white" style="background-image: url('madara.gif'); background-size: cover; background-position: center; height: 100vh;">
+        <div class="container">
+            <h1 class="display-4" data-aos="fade-down">Hola, soy Cristopher</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="200">Desarrollador Web | Innovador | Soluciones Creativas</p>
+            <a href="#proyectos" class="btn btn-primary btn-lg mt-4" data-aos="zoom-in" data-aos-delay="400">Mis Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4" data-aos="fade-right">
+                    <img src="perfil.jpg" alt="Cristopher" class="img-fluid rounded-circle shadow">
+                </div>
+                <div class="col-md-8" data-aos="fade-left">
+                    <h2 class="mb-4">Sobre mí</h2>
+                    <p class="lead">Soy Cristopher De Oleo Montero, un desarrollador web apasionado por crear soluciones innovadoras y eficientes. Con experiencia en tecnologías como HTML, CSS, JavaScript, y frameworks modernos como React y Angular, me dedico a transformar ideas en realidades digitales.</p>
+                    <p>Mi enfoque se centra en la usabilidad, el rendimiento y la estética, asegurando que cada proyecto no solo funcione bien, sino que también luzca impresionante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Proyectos</h2>
+            <div class="row g-4">
+                <!-- Tarjeta de Proyecto 1 -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">CAFETERACRIS</h5>
+                            <p class="card-text">Descubre el placer del café en cada taza con nuestra tienda online.</p>
+                            <a href="link-a-proyecto1" class="btn btn-primary btn-sm">Ver más</a>
+                        </div>
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="link-a-proyecto1" class="btn btn-outline-light">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repite las tarjetas para los otros 3 proyectos -->
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="proyecto2.jpg" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">METEOROTEP</h5>
+                            <p class="card-text"> Información meteorológica precisa y actualizada para cualquier destino.</p>
+                            <a href="link-a-proyecto2" class="btn btn-primary btn-sm">Ver más</a>
+                        </div>
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="link-a-proyecto2" class="btn btn-outline-light">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="proyecto3.jpeg" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">NIKE STORE</h5>
+                            <p class="card-text">Renueva tu estilo con nuestra tienda online de tenis, viste tu look a tu forma.</p>
+                            <a href="link-a-proyecto3" class="btn btn-primary btn-sm">Ver más</a>
+                        </div>
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="link-a-proyecto3" class="btn btn-outline-light">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card h-100 shadow-sm project-card">
+                        <img src="VOTACION3.jpg" class="card-img-top" alt="Proyecto 4">
+                        <div class="card-body">
+                            <h5 class="card-title">VOTACION WEB</h5>
+                            <p class="card-text"> Votación web  permite  votar por su candidato favorito de manera sencilla y segura..</p>
+                            <a href="link-a-proyecto4" class="btn btn-primary btn-sm">Ver más</a>
+                        </div>
+                        <div class="overlay">
+                            <div class="text">
+                                <a href="link-a-proyecto4" class="btn btn-outline-light">Detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Experiencias -->
+    <section id="experiencias" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Experiencias</h2>
+            <div class="timeline">
+                <!-- Experiencia 1 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h4>AUXILIAR DE ALMACEN</h4>
+                        <h5>Innova 4D</h5>
+                        <span>2024 - Presente</span>
+                        <p>Encargado de almacen, dirijo el despacho y venta de materiales e instrumentos odontologicos, asi como la compra internacional de los productos.</p>
+                    </div>
+                </div>
+                <!-- Experiencia 2 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h4>ASISTENTE VIRTUAL</h4>
+                        <h5>Conferencista Kirssy Lorenzo</h5>
+                        <span>2023</span>
+                        <p>Administre las redes sociales de la escritora, couch y conferencista Kirssy Lorenzo.</p>
+                    </div>
+                </div>
+                <!-- Añadir más experiencias según sea necesario -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">Desarrollado por Cristopher De Oleo Montero</p>
+            <div class="social-icons">
+                <a href="https://github.com/cristtophee" class="text-white me-3"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/cristopher-de-oleo-montero-1a8177269/" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:cristtophee@gmail.com" class="text-white"><i class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
